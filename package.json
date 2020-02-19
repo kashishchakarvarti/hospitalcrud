@@ -1,0 +1,20 @@
+{
+  "name": "sample-crud",
+  "version": "1.0.0",
+  "description": "sample crud",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "migrationup": "node_modules/.bin/sequelize db:migrate"
+  },
+  "dependencies": {
+    "ajv": "^6.11.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.4"
+  },
+  "author": "kashish"
+}
